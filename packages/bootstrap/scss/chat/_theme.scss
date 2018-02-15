@@ -1,0 +1,22 @@
+@import "~@progress/kendo-theme-default/scss/chat/theme";
+
+@include exports("chat/theme/bootstrap") {
+
+    // Chat
+    .k-chat {
+
+
+        // Bubbles
+        .k-bubble {
+            line-height: 1.25;
+        }
+
+
+        // Quick replies
+        .k-quick-reply {
+            line-height: 1.25;
+        }
+
+    }
+
+}
