@@ -174,19 +174,6 @@ $calendar-selected-focus-shadow: $calendar-focus-shadow !default;
 
     // Range Selection Calendar
     .k-calendar.k-calendar-range {
-        .k-prev-view,
-        .k-next-view {
-            border-radius: 0;
-        }
-
-        .k-prev-view {
-            border-width: 0 1px 0 0;
-        }
-
-        .k-next-view {
-            border-width: 0 0 0 1px;
-        }
-
         .k-calendar-view {
             &::after {
                 display: none;
